@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-soft);
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(../images/pattern-background-desktop.svg);
+}
+
+main.container {
+    background-color: var(--neutral-soft);
+    width: 330px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.container .payment-section div.description {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.container .hero img.illustration {
+    max-width: 330px;
+    border-radius: 20px 20px 0 0;
+}
+
+.container div.description {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.container .description h2 {
+    color: var(--neutral-dark);
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.container .description p {
+    color: var(--neutral-medium);
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.container .info div.annual-plan {
+    display: flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.66);
+    max-width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    margin-left: 39px;
+    margin-top: 12px;
+}
+
+.container .info img {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 15px;
+}
+
+.container .info p {
+    color: var(--neutral-dark);
+    font-size: 13px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.container .info span {
+    color: var(--neutral-medium);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.container .info a.change {
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.container div.button {
+    display: flex;
+    flex-direction: column;
+}
+
+.container div.button button.btn-proceed {
+    width: 250px;
+    height: 35px;
+    font-size: 11px;
+    margin: 20px 38px;
+    background-color: var(--primary-medium);
+    color: var(--neutral-soft);
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 1px 10px 20px rgba(36, 58, 135, 0.318);
+}
+
+.container .info button.btn-proceed:hover {
+    cursor: pointer;
+}
+
+.container .info a.cancel-order {
+    color: var(--neutral-medium);
+    font-weight: 700;
+    font-size: 11px;
+    padding-left: 125px;
+}
